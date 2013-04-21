@@ -31,7 +31,25 @@ int vaL12=0;
 int vaL13=0;
 int vaL14=0;
 int vaL15=0;
-//For 
+//
+int a1=0;
+int a2=0;
+int a3=0;
+int a4=0;
+int a5=0;
+int a6=0;
+int a7=0;
+int a8=0;
+int a9=0;
+int a10=0;
+int a11=0;
+int a12=0;
+int a13=0;
+int a14=0;
+int a15=0;
+
+
+int eggSum;
 
 void setup()
 {
@@ -71,7 +89,92 @@ void loop()
   vaL14=digitalRead(egg14);
   vaL15=digitalRead(egg15);
  
-  
+   if (vaL1 == HIGH) {         
+     a1=1;
+  } else {
+    a1=0;
+  }
+ if (vaL2 == HIGH) {         
+     a2=1;
+  } else {
+    a2=0;
+  }
+
+ if (vaL3 == HIGH) {         
+     a3=1;
+  } else {
+    a3=0;
+  }
+ if (vaL4 == HIGH) {         
+     a4=1;
+  } else {
+    a4=0;
+  }
+
+ if (vaL5 == HIGH) {         
+     a5=1;
+  } else {
+    a5=0;
+  }
+
+ if (vaL6 == HIGH) {         
+     a6=1;
+  } else {
+    a6=0;
+  }
+
+ if (vaL7 == HIGH) {         
+     a7=1;
+  } else {
+    a7=0;
+  }
+
+ if (vaL8 == HIGH) {         
+     a8=1;
+  } else {
+    a8=0;
+  }
+
+ if (vaL9 == HIGH) {         
+     a9=1;
+  } else {
+    a9=0;
+  }
+
+ if (vaL10 == HIGH) {         
+     a10=1;
+  } else {
+    a10=0;
+  }
+
+ if (vaL11 == HIGH) {         
+     a11=1;
+  } else {
+    a11=0;
+  }
+
+ if (vaL12 == HIGH) {         
+     a12=1;
+  } else {
+    a12=0;
+  }
+  if (vaL13 == HIGH) {         
+     a13=1;
+  } else {
+    a13=0;
+  }
+  if (vaL14 == HIGH) {         
+     a14=1;
+  } else {
+    a14=0;
+  }
+  if (vaL15 == HIGH) {         
+     a15=1;
+  } else {
+    a15=0;
+  }
+
+  eggSum=a1+a2+a3+a4+a5+a6+a7+a8+a9+a10+a11+a12+a13+a14+a15;
   
   
 }
