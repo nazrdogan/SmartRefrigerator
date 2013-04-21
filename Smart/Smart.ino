@@ -16,6 +16,7 @@ int egg12=33;
 int egg13=34;
 int egg14=35;
 int egg15=36;
+//----------------------------
 int vaL1=0;
 int vaL2=0;
 int vaL3=0;
@@ -31,7 +32,7 @@ int vaL12=0;
 int vaL13=0;
 int vaL14=0;
 int vaL15=0;
-//
+//----------------------------
 int a1=0;
 int a2=0;
 int a3=0;
@@ -175,6 +176,8 @@ void loop()
   }
 
   eggSum=a1+a2+a3+a4+a5+a6+a7+a8+a9+a10+a11+a12+a13+a14+a15;
+  
+  
   
   
 }
